@@ -1,0 +1,53 @@
+.main {
+	@include container;
+}
+
+.main-item__real-town-wrapper,
+.main-item--bridge {
+	background-color: #81b3d2;
+	color: #fff;
+	text-align: center;
+	padding: 45px 0;
+}
+
+.main-item {
+	text-align: center;
+	&--white-bg{
+		background-color:#eeeeee;
+	}
+}
+
+.main-item__title {
+	@include main-list-title;
+}
+
+.main-item__text {
+	margin: 0;
+}
+
+.main-item__img {
+	object-fit: cover;
+}
+
+.main-item__list {
+	padding-top: 35px;
+	padding-bottom: 35px;
+	padding-left: 53px;
+	text-align: left;
+}
+
+.main-item__item {
+	position: relative;
+}
+
+.main-item__icon {
+	position: absolute;
+	fill: #81b3d2;
+	left: -50px;
+	top: -7px;
+}
+
+.main-item__item-title {
+	@include main-list-title;
+	text-align: left;
+}

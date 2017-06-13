@@ -1,0 +1,13 @@
+.header{
+	background-color:#fff;
+	@include container;
+
+	text-align: center;
+}
+
+.header__intro-title{
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 700;
+	text-transform: uppercase;
+}

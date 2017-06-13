@@ -1,0 +1,18 @@
+/* font-family: "PT Sans"; */
+
+@font-face {
+	font-family: "PTSans";
+	font-weight: 400;
+	src: local("PTSans"), url("../fonts/PTSans.woff2") format("woff2"), url("../fonts/PTSans.woff") format("woff");
+	font-style: normal;
+}
+
+
+/* font-family: "PT Sans Bold"; */
+
+@font-face {
+	font-family: "PTSans";
+	font-weight: 700;
+	src: local("PTSansBold"), url("../fonts/PTSansBold.woff2") format("woff2"), url("../fonts/PTSansBold.woff") format("woff");
+	font-style: normal;
+}
