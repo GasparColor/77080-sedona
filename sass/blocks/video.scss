@@ -1,0 +1,12 @@
+.video{
+text-align: center;
+}
+.video__title{
+	@include main-list-title();
+
+}
+
+.video__descr{
+	@include photo-intro();
+
+}

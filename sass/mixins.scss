@@ -1,0 +1,33 @@
+@mixin container() {
+	width: 320px;
+	margin: 0 auto;
+}
+
+@mixin main-list-title(){
+	font-size:18px;
+	line-height: 26px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+@mixin title-h2(){
+	font-size:14px;
+	line-height: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+
+@mixin photo-intro(){
+	font-size:14px;
+	line-height: 24px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+@mixin photo-descr(){
+	font-size:14px;
+	line-height: 24px;
+	font-weight: 400;
+}
+

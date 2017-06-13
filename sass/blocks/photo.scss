@@ -1,0 +1,20 @@
+.photo__title{
+	@include main-list-title();
+	text-align:center;
+}
+
+.photo-item__title{
+	@include title-h2();
+}
+
+.photo__intro{
+	@include photo-intro();
+	text-align:center;
+}
+.photo-item__descr{
+	@include photo-descr();
+}
+
+.photo-item__likes{
+	@include title-h2();
+}
