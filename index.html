@@ -18,37 +18,39 @@
 				<button class="main-nav__toggle" type="button">Показать меню</button>
 				<ul class="main-nav__list">
 					<li class="main-nav__item"><a href="">Главная</a></li>
-					<li class="main-nav__item"><a href="">Фото и видео</a></li>
-					<li class="main-nav__item"><a href="">Форма отзыва</a></li>
+					<li class="main-nav__item"><a href="photo.html">Фото и видео</a></li>
+					<li class="main-nav__item"><a href="form.html">Форма отзыва</a></li>
 				</ul>
 			</nav>
 		</div>
 		<div class="header__intro">
 			<div class="header__title">
-				<picture>
+				<!--<picture>
 				<source media="(min-width: 1150px)" srcset="img/bg-back-desktop@1x.jpg 1x, img/bg-back-desktop@2x.jpg 2x">
 				<source media="(min-width: 768px)" srcset="img/bg-back-tablet@1x.jpg 1x, img/bg-back-tablet@2x.jpg 2x">
 				<img class="header__img" src="img/bg-back-mobile@1x.jpg" srcset="img/bg-back-mobile@2x.jpg 2x" width="320" height="260"
 				    alt="rock">
-			</picture>
+			</picture>-->
 			<svg>
 
 			</svg>
 			</div>
-			<div class="header__intro-title">
+			<div class="header__wrapper">
+			<h3 class="header__intro-title">
 				Седона — небольшой</br> городок в аризоне, заслуживающий большего!
-			</div>
+			</h3>
 			<p class="header__intro-text">
 				Рассмотрим 5 причин, по которым Седона круче чем гранд каньон!
 			</p>
+			</div>
 		</div>
 	</header>
 
 	<!-- MAIN -->
 
-	<main class="main">
+	<main class="main main--index">
 
-		<div class="main-item">
+		<div class="main-item main-item--town">
 			<div class="main-item__real-town-wrapper">
 				<h2 class="main-item__title">
 					Настоящий Городок
@@ -58,12 +60,13 @@
 					Седона не аттракцион для туристов, там течет своя жизнь
 				</p>
 			</div>
-			<picture>
+			<div class="main-item__bg"></div>
+			<!--<picture>
 				<source media="(min-width: 1150px)" srcset="img/photo-city-desktop@1x.jpg 1x, img/photo-city-desktop@2x.jpg 2x">
 				<source media="(min-width: 768px)" srcset="img/photo-city-tablet@1x.jpg 1x, img/photo-city-tablet@2x.jpg 2x">
 				<img class="main-item__img" src="img/photo-city-mobile@1x.jpg" srcset="img/photo-city-mobile@2x.jpg 2x" width="320" height="260"
 				    alt="city">
-			</picture>
+			</picture>-->
 
 			<div class="main-item__list real-town">
 
@@ -139,6 +142,7 @@
 
 
 		<div class="main-item  main-item--bridge">
+			<div class="main-item__bridge-wrapper">
 			<h2 class="main-item__title">
 				Там есть мост дьявола
 			</h2>
@@ -146,14 +150,16 @@
 			<p class="main-item__text">
 				Да, по нему можно пройти! Если вы осмелитесь, конечно
 			</p>
-			<img src="" alt="" class="main-item__img">
-		</div>
-		<picture>
+			</div>
+			<div class="main-item__bg"></div>
+			<!--<picture>
 				<source media="(min-width: 1150px)" srcset="img/photo-bridge-desktop@1x.jpg 1x, img/photo-bridge-desktop@2x.jpg 2x">
 				<source media="(min-width: 768px)" srcset="img/photo-bridge-tablet@1x.jpg 1x, img/photo-bridge-tablet@2x.jpg 2x">
 				<img class="main-item__img" src="img/photo-bridge-mobile@1x.jpg" srcset="img/photo-bridge-mobile@2x.jpg 2x" width="320" height="260"
 				    alt="city">
-			</picture>
+			</picture>-->
+		</div>
+		<div class="main-item__white-item-wrapper">
 		<div class="main-item  main-item--white-bg">
 			<h2 class="main-item__title">
 				Небольшая площадь
@@ -183,26 +189,28 @@
 				Большинство едет в гранд каньон и толпится там
 			</p>
 		</div>
+		</div>
 
 		<div class="find-hotel">
 			<h2 class="find-hotel__title">
 				Заинтересовались?
 			</h2>
-			<p class="main-item__text">
+			<p class="find-hotel__text">
 				Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне
 			</p>
 			<a href="#" class="find-hotel__btn btn">Найти гостиницу</a>
 		</div>
 
-		<div class="map">
+
+
+	</main>
+	<div class="map">
 			<picture>
-				<source media="(min-width: 1150px)" srcset="img/map-desktop@1x.jpg 1x, img/map-desktop@2x.jpg 2x">
-				<source media="(min-width: 768px)" srcset="img/map-tablet@1x.jpg 1x, img/map-tablet@2x.jpg 2x">
+				<!--<source media="(min-width: 1150px)" srcset="img/map-desktop@1x.jpg 1x, img/map-desktop@2x.jpg 2x">
+				<source media="(min-width: 768px)" srcset="img/map-tablet@1x.jpg 1x, img/map-tablet@2x.jpg 2x">-->
 				<img class="map__img" src="img/bg-map-mobile@1x.jpg" srcset="img/map-mobile@2x.jpg 2x" alt="карта">
 			</picture>
 		</div>
-
-	</main>
 
 	<!-- FOOTER -->
 

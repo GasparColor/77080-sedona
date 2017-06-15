@@ -1,33 +1,54 @@
 @mixin container() {
 	width: 320px;
 	margin: 0 auto;
+	@media #{$tablet-widths} {
+		width: 768px;
+		padding: 0 50px;
+	}
+	@media #{$desktop-widths} {
+		width: 1050px;
+		padding: 0;
+	}
 }
 
-@mixin main-list-title(){
-	font-size:18px;
+@mixin header__intro-title() {
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 700;
+	text-transform: uppercase;
+	@media #{$tablet-widths} {
+		font-size: 21px;
+		line-height: 26px;
+	}
+	@media #{$desktop-widths} {
+		font-size: 21px;
+		line-height: 26px;
+	}
+}
+
+@mixin main-list-title() {
+	font-size: 18px;
 	line-height: 26px;
 	font-weight: 700;
 	text-transform: uppercase;
 }
 
-@mixin title-h2(){
-	font-size:14px;
+@mixin title-h2() {
+	font-size: 14px;
 	line-height: 24px;
 	font-weight: 700;
 	text-transform: uppercase;
 }
 
-
-@mixin photo-intro(){
-	font-size:14px;
+@mixin photo-intro() {
+	font-size: 14px;
 	line-height: 24px;
 	font-weight: 400;
 	text-transform: uppercase;
 }
 
-@mixin photo-descr(){
-	font-size:14px;
+@mixin photo-descr() {
+	font-size: 14px;
 	line-height: 24px;
 	font-weight: 400;
 }
-
