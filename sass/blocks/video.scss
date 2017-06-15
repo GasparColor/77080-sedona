@@ -1,12 +1,32 @@
-.video{
-text-align: center;
-}
-.video__title{
-	@include main-list-title();
-
+.video {
+    text-align: center;
 }
 
-.video__descr{
-	@include photo-intro();
+.video__title {
+    @include main-list-title();
+}
 
+.video__descr {
+    @include photo-intro();
+}
+
+@media #{$tablet-widths} {
+    .video {
+        padding-top: 65px;
+    }
+    .video__content {
+        width: 100%;
+        min-height: 500px;
+    }
+}
+
+@media #{$desktop-widths} {
+    .video__title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .video__content {
+        width: 66%;
+        max-height: 500;
+    }
 }
